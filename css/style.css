@@ -14,6 +14,115 @@ body{
     background-color: #1d1e22;
 }
 
+label {
+	display: block;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 280px;
+	height: 500px;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+.flip-card {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card .front,
+.flip-card .back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+}
+
+.flip-card .back {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+label:hover .flip-card {
+	transform: rotateX(2deg);
+	box-shadow: 0 20px 20px rgba(50, 60, 60, 0.2);
+}
+
+input {
+	display: none;
+}
+
+:checked + .flip-card {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+.front img {
+	width: 150px;
+	height: 150px;
+	margin: 30px 0 20px 0;
+	border-radius: 50%;
+}
+
+.front h1 {
+	font-size: 30px;
+	color: #499bef;
+	margin: 0;
+}
+.front h2 {
+	font-size: 18px;
+	color: #4e699d;
+	margin: 12px 0 12px 0;
+}
+
+.front b {
+	font-size: 14px;
+	color: #424752;
+	margin: 0 0 35px 0;
+	display: block;
+}
+
+.front p,
+.back .click {
+	font-size: 18px;
+	font-weight: 600;
+    color: #000;
+    
+}
+
+.back h1 {
+	color: #424752;
+	margin: 30px 0 0 0;
+}
+
+hr {
+	width: 180px;
+	margin: 15px auto 10px auto;
+}
+
+.back p {
+	font-size: 16px;
+	color: #000;
+	padding: 0 18px;
+	line-height: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
 .scroll{
     position: absolute;
     top: 50%;
@@ -44,9 +153,10 @@ body{
     top: 0;
     z-index: 1;
     display: flex;
-    width: 100%;
-    min-height: 59px;
+    width: 98.9%;
+    min-height: 40px;
     background-color: black;
+    font-family: sans-serif;
 }
 
 .header ul{
@@ -54,8 +164,8 @@ body{
     padding: 0;
     list-style: none;
     display: flex;
-    width: 100%;
-    justify-content: center;
+    width: 90%;
+    justify-content: flex-end;
 }
 
 .header ul li{
