@@ -218,10 +218,10 @@ section:nth-child(2){
     background-color: darkred;
 }
 section:nth-child(3){
-    background-color: darkblue;
+    background-color: #FFF8BE;
 }
 section:nth-child(4){
-    background-color: darkgreen;
+    background-color: #ECE28B;
 }
 section:nth-child(5){
     background-color: darkorange;
