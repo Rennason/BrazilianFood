@@ -56,7 +56,7 @@ label {
 
 label:hover .flip-card {
 	transform: rotateX(2deg);
-	box-shadow: 0 20px 20px rgba(50, 60, 60, 0.2);
+	box-shadow: 0 20px 20px #323C3C;
 }
 
 input {
@@ -68,7 +68,7 @@ input {
 }
 label:hover :checked + .flip-card {
 	transform: rotateX(175deg);
-	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+	box-shadow: 0 20px 20px #ffffff38;
 }
 
 .front img {
@@ -135,7 +135,7 @@ hr {
     align-content: center;
     justify-content: center;
     color: #f4f4f4;
-    background-color: aqua;
+    background-color: #0ff;
 }
 
 .smooth-scroll{
@@ -156,7 +156,7 @@ hr {
     display: flex;
     width: 98.9%;
     min-height: 40px;
-    background-color: black;
+    background-color: #000;
     font-family: sans-serif;
 }
 
@@ -215,17 +215,17 @@ section h2{
  }
 
 section:nth-child(2){
-    background-color: darkred;
+    background-color: #8B0000;
 }
 section:nth-child(3){
     background-color: #FFF8BE;
 }
 section:nth-child(4){
-    background-color: #ECE28B;
+    background-color: #f1e571;
 }
 section:nth-child(5){
-    background-color: darkorange;
+    background-color: #FF8C00;
 }
 section:nth-child(6){
-    background-color: darkmagenta;
+    background-color: #8B008B;
 }
