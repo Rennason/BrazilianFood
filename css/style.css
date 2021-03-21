@@ -19,8 +19,8 @@ label {
 	position: relative;
 	top: 50%;
 	left: 50%;
-	width: 280px;
-	height: 500px;
+	width: 400px;
+	height: 600px;
 	perspective: 1000px;
 	transform-style: preserve-3d;
 	transform: translate(-50%, -50%);
@@ -45,7 +45,7 @@ label {
 	text-align: center;
 	background: #fff;
 	backface-visibility: hidden;
-	border-radius: 0 20px 0 20px;
+	border-radius: 20px 20px 20px 20px;
 }
 
 .flip-card .back {
