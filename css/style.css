@@ -72,8 +72,8 @@ label:hover :checked + .flip-card {
 }
 
 .front img {
-	width: 150px;
-	height: 150px;
+	width: 300px;
+	height: 300px;
 	margin: 30px 0 20px 0;
 	border-radius: 50%;
 }
@@ -110,7 +110,7 @@ label:hover :checked + .flip-card {
 }
 
 hr {
-	width: 180px;
+	width: 300px;
 	margin: 15px auto 10px auto;
 }
 
@@ -120,7 +120,7 @@ hr {
 	padding: 0 18px;
 	line-height: 30px;
 	text-align: center;
-	margin: 0 auto;
+	
 }
 
 
