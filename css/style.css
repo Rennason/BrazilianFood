@@ -54,6 +54,11 @@ label {
 	background: #fff;
 }
 
+.flip-card .back ol {
+    text-align: left;
+    padding: 0px 16%;
+}
+
 label:hover .flip-card {
 	transform: rotateX(2deg);
 	box-shadow: 0 20px 20px #323C3C;
@@ -148,55 +153,6 @@ hr {
     scroll-snap-points-y: repeat(100vh) ;
     scroll-snap-type-y: y mandatory;
 }
-
-.header{
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    display: flex;
-    width: 98.9%;
-    min-height: 40px;
-    background-color: #000;
-    font-family: sans-serif;
-}
-
-.header ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    width: 90%;
-    justify-content: flex-end;
-}
-
-.header ul li{
-    margin: 0 1em;
-    padding: 1em;
-}
-
-.header ul li a{
-    position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #f4f4f4;
-}
-
-.header ul li a::after{
-    position: absolute;
-    bottom: 0;
-    left: 0;    
-    content:'';
-    width: 0;
-    height: 2px;
-    transition: all 0.2s linear;
-}
-
-.header ul li a:hover::after{
-    width: 100%;
-    background-color: #f4f4f4;
-
-}
-
 section{
     position: relative;
     display: flex;

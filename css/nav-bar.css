@@ -1,0 +1,41 @@
+.header{
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    min-height: 40px;
+    background-color: #000;
+    font-family: sans-serif;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+}
+
+.header ul li{
+    margin: 0 1em;
+    padding: 1em;
+}
+
+.header ul li a{
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+.header ul li a::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;    
+    content:'';
+    width: 0;
+    height: 2px;
+    transition: all 0.2s linear;
+}
