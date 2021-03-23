@@ -51,7 +51,12 @@ label {
 .flip-card .back {
 	transform: rotateX(180deg);
 	color: #000;
-	background: #fff;
+	background: #fff; 
+}
+
+.flip-card .back ol {
+    text-align: left;
+    padding: 0px 16%;
 }
 
 .flip-card .back ol {
@@ -105,8 +110,7 @@ label:hover :checked + .flip-card {
 .back .click {
 	font-size: 18px;
 	font-weight: 600;
-    color: #000;
-    
+    color: #000; 
 }
 
 .back h1 {
