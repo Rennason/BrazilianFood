@@ -184,9 +184,10 @@ section{
 	background-color: #c94386;
 	align-items: center;
 	display: flex;
-	border-right: 320px solid #218592;
-	border-top: 320px solid transparent;
-	border-bottom: 320px solid transparent; 
+	position: absolute;
+	border-right: 312px solid #218592;
+	border-top: 312px solid transparent;
+	border-bottom: 312px solid transparent; 
 }
 
 #reservas p{
