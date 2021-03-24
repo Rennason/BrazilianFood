@@ -174,17 +174,17 @@ section{
 	padding: 0;
 	border: 0;
 	font-size: 30px;
-	left: 1%;
+	left: 12%;
 	color: #000;
 	font-style: italic;
 }
 .reservas-titulo{
 	height: 100%;
-	width: 35%;
+	width: 45%;
 	background-color: #c94386;
 	align-items: center;
 	display: flex;
-	border-right: 400px solid #218592;
+	border-right: 300px solid #218592;
 	border-top: 400px solid transparent;
 	border-bottom: 400px solid transparent; 
 }
