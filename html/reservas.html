@@ -5,15 +5,20 @@
         <link rel="stylesheet" href="../css/nav-bar.css">
         <style>
             #reservacontent{
-                left: 0;
-                top: 9%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 position: absolute;
                 width: 100%;
                 min-height: 100%;
-                background-color: #6e9db9;
-                justify-content: center;
+                background-color: #218592;
+                left: 0;
+                top: 0;
             }
-
+            #titulo-geral{
+                position: absolute;
+                top: 6em;
+            }
         </style>
     </head>
     <body>
@@ -24,40 +29,41 @@
                 <li><a href="../index.html#cardapio">Cardápio</a></li>
                 <li><a href="../index.html#social">Social</a></li>
                 <li><a href="../index.html#delivery">Delivery</a></li>
-                <li><a href="../index.html#contato">Reservas</a></li>
+                <li><a href="../index.html#reservas">Reservas</a></li>
             </ul> 
         </div>
         <Section id="reservacontent">
+            <h1 id="titulo-geral">Formulário de Reservas</h1>
             <form id="formulario">
 
-                <label for="nome">Insira seu nome:</label><br>
+                <label for="nome">Insira seu nome:</label>
                 <input type="text" id="nome"><br>
 
-                <label for="email">Insira seu email:</label><br>
+                <label for="email">Insira seu email:</label>
                 <input type="email" id="email"><br>
 
-                <label for="telefone">Insira seu numero de telefone:</label><br>
+                <label for="telefone">Insira seu numero de telefone:</label>
                 <input type="tel" id="telefone"><br>
 
-                <label for="quantidade">Insira a quantiadde de pessoas à mesa:</label><br>
+                <label for="quantidade">Insira a quantiadde de pessoas à mesa:</label>
                 <input type="number" id="quantidade"><br>
 
-                <label for="data">Insira a data que deseja:</label><br>
+                <label for="data">Insira a data que deseja:</label>
                 <input type="date" id="data"><br>
 
-                <label></label>Insira a hora que deseja:</label><br>
+                <label></label>Insira a hora que deseja:</label>
                 <input type="time" id="hora"><br>
 
-                <label>checkbox..:</label><br>
+                <label>checkbox..:</label>
                 <input type="checkbox">
                 <input type="checkbox">
                 <input type="checkbox"><br>
 
-                <label>Reservar Vaga no estacionamento local:</label><br>
+                <label>Reservar Vaga no estacionamento local:</label>
                 <input type="radio" id="sim" name="vaga">
                 <label for="sim"> Sim </label>
                 <input type="radio" id="nao" name="vaga">
-                <label for="nao"> Não </label><br>
+                <label for="nao"> Não </label>
 
                 <input type="reset">
 

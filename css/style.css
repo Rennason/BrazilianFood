@@ -167,6 +167,36 @@ section{
     justify-content: center;
     scroll-snap-align: center;
 }
+#reservas h2{
+	position: absolute;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 30px;
+	left: 1%;
+	color: #000;
+	font-style: italic;
+}
+.reservas-titulo{
+	height: 100%;
+	width: 35%;
+	background-color: #c94386;
+	align-items: center;
+	display: flex;
+	border-right: 400px solid #218592;
+	border-top: 400px solid transparent;
+	border-bottom: 400px solid transparent; 
+}
+
+#reservas p{
+	font-family: fantasy;
+	font-size: 28px;
+	text-align: left;
+	position: absolute;
+	width: 100%;
+	left: 15em;
+}
 
 section h2{
     padding: 10px 50px;
@@ -187,5 +217,6 @@ section:nth-child(5){
     background-color: #FF8C00;
 }
 section:nth-child(6){
-    background-color: #8B008B;
+    background-color: #218592;
 }
+
