@@ -176,6 +176,7 @@ section{
 	font-size: 48px;
 	color: #000;
 	font-style: italic;
+	font-family: cursive;
 }
 .reservas-titulo{
 	height: 100%;
@@ -192,8 +193,8 @@ section{
 }
 
 #reservas p{
-	font-family: fantasy;
-	font-size: 28px;
+	font-family: Verdana;
+	font-size: 26px;
 	text-align: center;
 	position: absolute;
 	width: 100%;
