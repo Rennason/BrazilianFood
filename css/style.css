@@ -52,11 +52,7 @@ label {
 	transform: rotateX(180deg);
 	color: #000;
 	background: #fff; 
-}
-
-.flip-card .back ol {
-    text-align: left;
-    padding: 0px 16%;
+    padding: 10% 10% 10% 10%;
 }
 
 .flip-card .back ol {
@@ -128,10 +124,8 @@ hr {
 	color: #000;
 	padding: 0 18px;
 	line-height: 30px;
-	text-align: center;
-	
+	text-align: center;	
 }
-
 
 .scroll{
     position: absolute;
