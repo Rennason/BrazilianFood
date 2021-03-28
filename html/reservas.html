@@ -6,7 +6,7 @@
         <style>
             #reservacontent{
                 display: flex;
-                justify-content: center;
+                justify-content: left;
                 align-items: center;
                 position: absolute;
                 width: 100%;
@@ -17,13 +17,47 @@
             }
             #titulo-geral{
                 position: absolute;
-                top: 6em;
+                top: 2em;
+                margin-left: 2%;
+                font-size: 34px;
+            }
+            label{
+                font-size: 28px;
+                justify-content: left;
+            }
+            .formulario{
+                width: 60%;
+                margin-left: 2%;
+            }
+            .formulario input{
+                align-items: right;
+                width: 100%;
+                size: 50px;
+            }
+            .radiovaga{
+                max-width: 10%
+            }
+            .radiolabel{
+                margin: 5px;
+            }
+            .fim input{
+                font-size: 20px;
+                margin-left: 2%;
+            }
+            form{
+                width: 100%;
+            }
+            .datahora{
+                max-width: 25%;
+            }
+            fieldset{
+                max-width: 40%;
             }
         </style>
     </head>
     <body>
         <div class="header">
-            <a href="#home" class="logo"><img src="../images/logo.png"></a>
+            <a href="../index.html#home" class="logo"><img src="../images/logo.png"></a>
             <ul>
                 <li><a href="../index.html#home">Home</a></li>
                 <li><a href="../index.html#cardapio">Cardápio</a></li>
@@ -34,40 +68,43 @@
         </div>
         <Section id="reservacontent">
             <h1 id="titulo-geral">Formulário de Reservas</h1>
-            <form id="formulario">
+            <form>
+                <fieldset>
+                <div class="formulario">
+                    <label for="nome">Insira seu nome:
+                    <br><input type="text" id="nome" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" title="Apenas caracteres alfabéticos são permitidos"  ><br></label>
 
-                <label for="nome">Insira seu nome:</label>
-                <input type="text" id="nome"><br>
+                    <label for="email">Insira seu email:
+                    <br><input type="email" id="email"><br></label>
 
-                <label for="email">Insira seu email:</label>
-                <input type="email" id="email"><br>
+                    <label for="telefone">Insira seu numero de telefone:
+                        <br><input type="tel" id="telefone"><br></label>
 
-                <label for="telefone">Insira seu numero de telefone:</label>
-                <input type="tel" id="telefone"><br>
+                    <label for="quantidade">Insira a quantidade de pessoas:
+                        <br><input type="number" id="quantidade"><br></label>
 
-                <label for="quantidade">Insira a quantiadde de pessoas à mesa:</label>
-                <input type="number" id="quantidade"><br>
+                    <label for="data">Insira a data que deseja:
+                        <br><input  class= "datahora" type="date" id="data"><br></label>
 
-                <label for="data">Insira a data que deseja:</label>
-                <input type="date" id="data"><br>
+                    <label>Insira a hora que deseja:
+                    <br><input class= "datahora" type="time" id="hora"></label><br>
 
-                <label></label>Insira a hora que deseja:</label>
-                <input type="time" id="hora"><br>
-
-                <label>checkbox..:</label>
-                <input type="checkbox">
-                <input type="checkbox">
-                <input type="checkbox"><br>
-
-                <label>Reservar Vaga no estacionamento local:</label>
-                <input type="radio" id="sim" name="vaga">
-                <label for="sim"> Sim </label>
-                <input type="radio" id="nao" name="vaga">
-                <label for="nao"> Não </label><br>
-
-                <input type="reset">
-
-                <input type="submit"><br>
+                
+                    <label>Reservar Vaga no estacionamento:</label><br>
+                    <label for="sim" class="radiolabel">Sim</label><input class="radiovaga" type="radio" id="sim" name="vaga" checked>
+                    <label for="nao" class="radiolabel">Não</label><input class="radiovaga" type="radio" id="nao" name="vaga"><br><br>
+            </div> 
+            </fieldset> 
+            <fieldset>            
+                    <label>
+                        <input type="checkbox" required width="30px"  style="margin-left: 2%;">Concordo com os <a style="text-decoration: none; color: #FFF; font-style: italic;">termos e política de uso de dados</a>
+                    </label><br>
+                    <br>
+                    <div class="fim">
+                        <input type="submit" value="Reservar">
+                        <input type="reset"><br>
+                    </div>
+            </fieldset> 
             </form>
     </Section>
     </body>
