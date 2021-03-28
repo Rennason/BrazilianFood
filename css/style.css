@@ -201,6 +201,10 @@ section h2{
     text-align: center;
  }
 
+#home img{
+	position: absolute;
+	width: 100%;
+}
 section:nth-child(2){
     background-color: #8B0000;
 }
