@@ -175,13 +175,13 @@ section{
 .reservas-titulo{
 	height: 100%;
 	width: 45%;
-	background-color: #c94386;
+	background-color: #c7f3f7;
 	align-items: center;
 	display: flex;
 	position: relative;
 	margin: 0;
 	padding: 0;
-	border-right: 300px solid #218592;
+	border-right: 300px solid #3561ba;
 	border-top: 500px solid transparent;
 	border-bottom: 500px solid transparent; 
 }
@@ -199,6 +199,17 @@ section h2{
     padding: 10px 50px;
     font-weight: 900;
     text-align: center;
+	color: #000000;
+ }
+
+ #titulo-home{
+	position: relative;
+	text-align: right;
+	margin-right: 10%;
+	margin-bottom: 15%;
+	color: #140f07;
+	font-family: cursive;
+	font-size: 30px;
  }
 
 #home img{
@@ -206,15 +217,15 @@ section h2{
 	width: 100%;
 }
 section:nth-child(2){
-    background-color: #8B0000;
+    background-color: #140f07;
 }
 section:nth-child(3){
-    background-color: #FFF8BE;
+    background-color: #0e2851;
 }
 section:nth-child(4){
-    background-color: #f1e571;
+    background-color: #73a6fe;
 }
 section:nth-child(5){
-    background-color: #218592;
+    background-color: #3561ba;
 }
 
