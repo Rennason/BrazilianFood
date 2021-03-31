@@ -164,7 +164,7 @@ section{
 #reservas h2{
 	position: absolute;
 	text-align: left;
-	margin-left: 5%;
+	margin-left: 3%;
 	padding: 0;
 	border: 0;
 	font-size: 48px;
@@ -178,12 +178,12 @@ section{
 	background-color: #c7f3f7;
 	align-items: center;
 	display: flex;
-	position: relative;
+	position: absolute;
 	margin: 0;
 	padding: 0;
-	border-right: 300px solid #3561ba;
-	border-top: 500px solid transparent;
-	border-bottom: 500px solid transparent; 
+	border-right: 330px solid #3561ba;
+	border-top: 330px solid transparent;
+	border-bottom: 330px solid transparent; 
 }
 
 #reservas p{
