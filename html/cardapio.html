@@ -18,17 +18,13 @@
                 left: 0;
                 top: 0;
             }
-            #cardapio h2{
-                align-items: left;
-                justify-content: center;
-                font-size: 34px;
-            }
             .coluna-cardapio{
                 margin-top: 70px;
                 width: 100%;
                 position: relative;
             }
             .coluna-cardapio h2 {
+                font-size: 34px;
                 margin-top: 5%;
                 text-align: center;
             }
@@ -38,7 +34,7 @@
             #lista-cardapio dh{
                 font-size: 24px;
                 font-weight: bolder;
-                margin-left: 3%;
+                margin-left: 5%;
             }
             #lista-cardapio dt{
                 font-weight: bold;
@@ -46,16 +42,17 @@
                 margin-top: 1%;
             }
             #lista-cardapio dd{
+                width: 85%;
                 font-style: italic;
-                position: relative;
-                width: auto;
-                
+                position: absolute;
+                                
             }
             #lista-cardapio a{
-                width: 80%;
+                width: 95%;
                 position: absolute;
-                text-align: right;
+                text-align: right;   
                 border-bottom: 2px dotted #FFF;
+                top: 0;
             }
 
             #lista-cardapio{
@@ -78,70 +75,93 @@
         <Section id="cardapio">
             <div class="coluna-cardapio">
                 <h2>Cardapio</h2>                 
-                <dl id="lista-cardapio">
-                    <dh>Combinados</dh>
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                <dl id="lista-cardapio"><br>
+                    <dh>Entradas</dh><br><br>
+                    <dt>Sunomono simples</dt>
+                    <dd>Pepino japonês e gergelim <br><a>R$9,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Sunomono Crocante</dt>
+                    <dd>Pepino, salmão, peixe branco e gergelim <br><a>R$15,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Sunomono de Polvo</dt>
+                    <dd>Pepino, polvo e gergelim <br><a>R$16,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Ceviche</dt>
+                    <dd>Peixe marinado ao molho citrico e picante <br><a>R$21,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Tempurá</dt>
+                    <dd>Filé de camarão empanado <br><a>R$17,90</a></dd><br><br>
+                    
+                    <dh>Temakis</dh><br>
+                    <dt>Salmão Shin</dt>
+                    <dd>Salmão e cream cheese <br><a>R$13,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Filadelfia</dt>
+                    <dd>Patê de salmão e cream cheese <br><a>R$18,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>California</dt>
+                    <dd>Pepino, manga e kani <br><a>R$13,90</a></dd><br><br>
+                    
+                    <dh>Sushi</dh><br>
+                    <dt>Ebimaki (10 unidades)</dt>
+                    <dd>hossomaki de camarão <br><a>R$12,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Shakemaki (10 unidades)</dt>
+                    <dd>Hossomaki de Salmão <br><a>R$12,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Kappamaki (10 unidades)</dt>
+                    <dd>Hossomaki de pepino <br><a>R$12,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Kanimaki (10 unidades)</dt>
+                    <dd>Hossomaki de kani <br><a>R$12,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Uramaki California (10 unidades)</dt>
+                    <dd>Manga, kani e pepino <br><a>R$12,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Uramaki Filadelfia (10 unidades)</dt>
+                    <dd>Salmão e cream cheese <br><a>R$12,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Uramaki Temproll (10 unidades)</dt>
+                    <dd>Camarão empanado com cream cheese <br><a>R$12,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Niguiri (10 unidades)</dt>
+                    <dd>Salmão e Arroz <br><a>R$14,90</a></dd><br><br>
+                    
+                    <dh>Comidas Chinesas</dh><br>
+                    <dt>Rolinho Primavera</dt>
+                    <dd>Massa frita com repolho, carne e cenoura desfiada <br><a>R$4,50</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Rolinho Misto</dt>
+                    <dd>Massa frita com presunto e queijo <br><a>R$4,50</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Yakisoba</dt>
+                    <dd>Macarrão, carne, frango e legumes <br><a>R$27,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Yakisoba de Frutos do Mar</dt>
+                    <dd>Macarrão, camarão, polvo, peixe e legumes <br><a>R$29,90</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Macarrão Bifun</dt>
+                    <dd>Carne, frango e legumes <br><a>R$28,90</a></dd><br><br>
+                    
+                    <dh>Bebidas</dh><br>
+                    <dt>Água mineral</dt>
+                    <dd><a>R$3,50</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Água mineral c/ Gás</dt>
+                    <dd><a>R$4,00</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Refrigerante Lata</dt>
+                    <dd><a>R$5,00</a></dd><br>
 
-                    <dt>Sushi</dt>
-                    <dd>Salmão, Arroz bla bla, alga e sopa <a>R$0,00</a></dd><br>
+                    <dt>Refrigerante Litro</dt>
+                    <dd><a>R$9,50</a></dd><br>
+
+                    <dt>Suco Copo</dt>
+                    <dd><a>R$5,00</a></dd><br>
+
+                    <dt>Suco Jarra</dt>
+                    <dd><a>R$10,00</a></dd><br><br>
+                
                 </dl>
             </div>
             
